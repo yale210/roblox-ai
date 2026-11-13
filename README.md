@@ -1,83 +1,39 @@
-# ROBLOX AI — Visual Reference Library
+# Roblox AI
 
-**A curated visual reference collection for building better Roblox experiences with AI.**
+Visual references for better Roblox experiences.
 
-Explore UI design, game thumbnails, logos, animation, VFX, cutscenes, and more. Use the collection to give AI coding and design assistants clear visual direction instead of relying on vague descriptions.
+A categorized media library for Roblox developers, designers, animators and AI-assisted workflows. This repository contains image, video and audio files only.
 
-> **5,885 images + 5 short reference clips** documented in the collection. Counts reflect the existing catalog and may change as new references are added.
+## Contents
 
----
+12,165 image files (PNG, JPG, WebP, GIF), 5 MP4 clips and 2,210 MP3 sound effects, of which 14,218 are unique by content. Some references are cross-listed in more than one folder so they are easier to find, so the file count is higher than the unique count.
 
-## What's inside
+The sound effects in sfx/cc0-audio are short clips released under CC0, sorted by type: interface clicks, rewards, impacts, whooshes, explosions, magic, swords, footsteps, doors, power-ups and more.
 
-| Collection | Focus | Cataloged images |
-| :-- | :-- | --: |
-| `game-refs/` | Real Roblox game thumbnails organized by genre | 602 |
-| `style-refs/` | Style mockups and CC0 asset contact sheets | 293 |
-| `roblox-docs/` | Official creator documentation screenshots | 3,730 |
-| `previews/` | Covers for UI, effects, animation, cinematics, and more | 707 |
-| `ui-styles/` | GUI design inspiration | 69 |
-| `visual-refs/` | Icons, sports interfaces, stud-style UI, animation clips | 43 |
-| `vfx/` | Visual effect inspiration | 28 |
-| `animations/` | Animation reference material | 13 |
-| `sfx/` | Sound-related visual references | 10 |
-| `logos/` | Logo and icon inspiration | 8 |
-| `thumbnails/` | Game thumbnail inspiration | 8 |
-| `cutscenes/` | Cinematic and cutscene inspiration | 4 |
+| Folder | Best for | Files |
+| :--- | :--- | ---: |
+| game-refs | Gameplay, icons and thumbnail references | 6,604 |
+| roblox-docs | Creator documentation visuals | 3,732 |
+| previews | Quick inspiration by category | 709 |
+| visual-refs | Sports, studs UI, icon and interface references | 420 |
+| style-refs | Mockups and visual direction | 295 |
+| motion-references | Animation and cutscene frame sequences | 172 |
+| ui-styles | Menu, HUD, shop and layout examples | 153 |
+| vfx | Particles, impact effects and motion | 30 |
+| animations | Motion, action and interface animation | 16 |
+| sfx | Sound effects plus visual timing cues for sound and interaction | 2,222 |
+| logos | Game branding and icon composition | 10 |
+| thumbnails | Game cover composition and marketing | 10 |
+| cutscenes | Framing, camera and storytelling | 6 |
 
-**Note:** Folder counts are catalog figures, not a live inventory. Some assets are intended for inspiration rather than direct reuse.
+## Using the references
 
-## How to use this library
+1. Pick the folder that matches your goal, such as ui-styles, vfx or game-refs.
+2. Attach two to five relevant images to your assistant. Naming a folder is not enough, the assistant has to see the files.
+3. State which design patterns to take from each reference and what must be different.
+4. Ask for Roblox-ready output: hierarchy, sizing, input handling and test steps.
+5. Review the result in Studio on desktop, mobile and gamepad before publishing.
 
-**1. Choose a direction.** Pick the folder closest to your project: interface, animation, effects, branding, or gameplay art.
+## Rights
 
-**2. Find references.** Browse the images and clips to identify composition, color, motion, typography, and overall style.
-
-**3. Give your AI specific context.** Attach selected references to your preferred AI assistant and explain which details to follow and which to change.
-
-**4. Build your own version.** Iterate on the generated result. References are inspiration, not a license to copy another creator's work.
-
-## Example AI prompt
-
-```text
-I'm developing a Roblox experience.
-
-Use the attached reference images as visual inspiration.
-Study the layout, spacing, colors, hierarchy, and overall style.
-
-Create an original implementation that fits my game's theme.
-Keep the interface readable, responsive, and usable in Roblox.
-Do not copy logos, copyrighted assets, or distinctive artwork.
-Explain how the design is organized and how I can customize it.
-```
-
-## Recommended workflows
-
-| Building | Start with |
-| :-- | :-- |
-| A polished game HUD | `ui-styles/`, `visual-refs/`, `previews/` |
-| A recognizable game identity | `logos/`, `thumbnails/`, `game-refs/` |
-| Better character movement | `animations/`, `visual-refs/` |
-| Combat and ability effects | `vfx/`, `previews/` |
-| A cinematic intro | `cutscenes/`, `previews/` |
-| Studio-specific implementation | `roblox-docs/` |
-| A consistent art direction | `style-refs/`, `game-refs/` |
-
-## Contributing
-
-Want to improve the collection? Add genuinely useful, well-organized references with descriptive filenames and clear source or creator attribution. Prefer original, openly licensed, or appropriately attributed reference material. Avoid duplicates, low-quality screenshots, and unverified ownership claims.
-
-## Usage and attribution
-
-This is an **independent reference library**, not an official Roblox project.
-
-- `roblox-docs/` contains Roblox Corporation documentation imagery under CC BY 4.0, as documented in the original collection. Preserve required attribution.
-- `game-refs/` includes public promotional images from Roblox experiences. Rights remain with their respective creators; inclusion does not grant permission to reuse them.
-- `style-refs/` includes original mockups and contact sheets made from CC0 Kenney assets.
-- Other imagery and media remain subject to their creators' respective rights and licenses. Verify permission before redistributing or incorporating assets into your game.
-
----
-
-**Made for Roblox developers, artists, and AI-assisted creators.**
-
-*Find inspiration. Build something original.*
+Reference does not mean free to reuse. The collection mixes Roblox promotional and documentation imagery, original mockups and other visual inspiration. Build an original result and respect the rights of the creators. If you own a file and want it removed, open an issue and it will be taken down.
